@@ -1,0 +1,19 @@
+.page-form-search{
+    .submit-search{
+        border: 0;
+        background: transparent;
+        padding: 0;
+        font-size: 15px;
+        color: $color-2;
+        position: absolute;
+        top: 10px;
+        #{$right}:0;
+    }
+    .search-result-info {
+        color: #6b6969;
+        font-size: 13px;
+        .color-def{
+            color: $color-2;
+        }
+    }
+}

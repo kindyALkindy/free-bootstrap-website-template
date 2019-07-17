@@ -1,0 +1,35 @@
+.form-control{
+    @include border-radius(0);
+    border-top: 0;
+    border-right: 0;
+    border-left: 0;
+    border-bottom: 2px solid #eeeeee;
+    &:focus{
+        border-bottom-color: #000000;
+    }
+}
+.was-validated .form-control:invalid, .form-control.is-invalid {
+    border-color: #dc3545;
+    padding-#{$right}: calc(1.5em + 0.75rem);
+    background-repeat: no-repeat;
+    background-position: center #{$right} calc(0.375em + 0.1875rem);
+    background-size: calc(0.75em + 0.375rem) calc(0.75em + 0.375rem);
+}
+.was-validated .form-control:valid, .form-control.is-valid {
+    border-color: #28a745;
+    padding-#{$right}: calc(1.5em + 0.75rem);
+    background-repeat: no-repeat;
+    background-position: center #{$right} calc(0.375em + 0.1875rem);
+    background-size: calc(0.75em + 0.375rem) calc(0.75em + 0.375rem);
+}
+.was-validated textarea.form-control:invalid, textarea.form-control.is-invalid {
+    padding-#{$right}: calc(1.5em + 0.75rem);
+    background-position: top calc(0.375em + 0.1875rem) #{$right} calc(0.375em + 0.1875rem);
+}
+.was-validated textarea.form-control:valid, textarea.form-control.is-valid {
+    padding-right: calc(1.5em + 0.75rem);
+    background-position: top calc(0.375em + 0.1875rem) #{$right} calc(0.375em + 0.1875rem);
+}
+@if $direction == rtl{
+
+}

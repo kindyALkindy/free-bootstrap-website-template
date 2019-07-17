@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>UI-DEV | Home</title>
+    <link rel="stylesheet" href="./dist/css/app.css">
+</head>
+
+<body>
+
+    <!--Header-->
+    <header class="pages-header">
+        <div class="form-search">
+            <form class="form-inline" action="search.html">
+                <div class="box-search">
+                    <input class="form-control" type="search" placeholder="Search..." id="form-header-search"
+                        autocomplete="off">
+                    <button class="submit-search" type="submit"><i class="fas fa-search"></i></button>
+                </div>
+            </form>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <nav class="navbar navbar-expand-lg">
+                        <a class="navbar-brand" href="index.html">
+                            <!--logo-->
+                            <img data-src="./dist/images/logo.png" alt="" class="lozad img-fluid logo-header">
+                        </a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse"
+                            data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="app-navbar-toggler-icon">
+                                <span class="line-1"></span>
+                                <span class="line-2"></span>
+                                <span class="line-3"></span>
+                            </span>
+                        </button>
+
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav app-mr-auto">
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="index.html">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="about.html">About</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="portfolio.html">Portfolio</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="blog.html">Blog</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="contact.html">Contact</a>
+                                </li>
+                            </ul>
+                            <button type="button" class="toggle-form">
+                                <span class="icon-search"><i class="fas fa-search"></i></span>
+                                <span class="icon-close"><i class="fas fa-times"></i></span>
+                            </button>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!--End Header-->
+
+
+    <!--Slider-->
+    <section class="main-slider">
+        <div class="owl-carousel owl-theme" id="main-slider">
+            <!--item-->
+            <div class="item item-main-slider">
+                <a href="#">
+                    <img data-src="./dist/up/team-3373638_1920.jpg" alt="" class="min-slide-image lozad owl-lazy">
+                </a>
+            </div>
+            <!--End item-->
+            <!--item-->
+            <div class="item item-main-slider">
+                <a href="#">
+                    <img data-src="./dist/up/office-932926_1920.jpg" alt="" class="min-slide-image lozad owl-lazy">
+                </a>
+            </div>
+            <!--End item-->
+        </div>
+        <!--slider controll-->
+        <button type="button" class="main-slider-control prev"><i class="fas fa-chevron-left"></i></button>
+        <button type="button" class="main-slider-control next"><i class="fas fa-chevron-left"></i></button>
+        <!--End slider controll-->
+    </section>
+    <!--End Slider-->
+
+    <!--Services-->
+    <section class="section services">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-12">
+                    <h2 class="section-title">Services</h2>
+                </div>
+                <!--item service-->
+                <div class="col-md-6 col-lg-4 mb-3">
+                    <div class="item-service">
+                        <span class="icon"><i class="fas fa-laptop"></i></span>
+                        <h3 class="name">Web devleloper</h3>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+                    </div>
+                </div>
+                <!--End item service-->
+                <!--item service-->
+                <div class="col-md-6 col-lg-4 mb-3">
+                    <div class="item-service">
+                        <span class="icon"><i class="fas fa-mobile-alt"></i></span>
+                        <h3 class="name">App devleloper</h3>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+                    </div>
+                </div>
+                <!--End item service-->
+                <!--item service-->
+                <div class="col-md-6 col-lg-4 mb-3">
+                    <div class="item-service">
+                        <span class="icon"><i class="fas fa-camera-retro"></i></span>
+                        <h3 class="name">Awesome Design</h3>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+                    </div>
+                </div>
+                <!--End item service-->
+            </div>
+        </div>
+    </section>
+    <!--End Services-->
+
+    <!--portfolios-->
+    <section class="section portfolios">
+        <div class="container-fluid padding-0">
+            <div class="row justify-content-center padding-0 margin-0">
+                <div class="col-12">
+                    <h2 class="section-title">portfolios</h2>
+                </div>
+                <!--item portfolio-->
+                <div class="col-md-6 col-lg-3 padding-0">
+                    <div class="item-portfolio">
+                       <img data-src="./dist/up/team-3373638_1920.jpg" class=" lozad img-fluid" alt="">
+                       <span class="overlay"></span>
+                       <div class="box-desc">
+                           <h3 class="name">portfolio name</h3>
+                           <a href="./dist/up/team-3373638_1920.jpg" class="image-zoom lsb-preview" data-lsb-group="gallery1"><i class="fas fa-search-plus"></i></a>
+                           <a href="single-portfolio.html" class="read-more"><i class="far fa-file-alt"></i></a>
+                       </div>
+                    </div>
+                </div>
+                <!--End item portfolio-->
+                <!--item portfolio-->
+                <div class="col-md-6 col-lg-3 padding-0">
+                    <div class="item-portfolio">
+                       <img data-src="./dist/up/developer-4027337_1920.png" class=" lozad img-fluid" alt="">
+                       <span class="overlay"></span>
+                       <div class="box-desc">
+                           <h3 class="name">portfolio name</h3>
+                           <a href="./dist/up/developer-4027337_1920.png" class="image-zoom lsb-preview" data-lsb-group="gallery1"><i class="fas fa-search-plus"></i></a>
+                           <a href="single-portfolio.html" class="read-more"><i class="far fa-file-alt"></i></a>
+                       </div>
+                    </div>
+                </div>
+                <!--End item portfolio-->
+                <!--item portfolio-->
+                <div class="col-md-6 col-lg-3 padding-0">
+                    <div class="item-portfolio">
+                       <img data-src="./dist/up/office-932926_1920.jpg" class=" lozad img-fluid" alt="">
+                       <span class="overlay"></span>
+                       <div class="box-desc">
+                           <h3 class="name">portfolio name</h3>
+                           <a href="./dist/up/office-932926_1920.jpg" class="image-zoom lsb-preview" data-lsb-group="gallery1"><i class="fas fa-search-plus"></i></a>
+                           <a href="single-portfolio.html" class="read-more"><i class="far fa-file-alt"></i></a>
+                       </div>
+                    </div>
+                </div>
+                <!--End item portfolio-->
+                <!--item portfolio-->
+                <div class="col-md-6 col-lg-3 padding-0">
+                    <div class="item-portfolio">
+                       <img data-src="./dist/up/portfolio-1.png" class=" lozad img-fluid" alt="">
+                       <span class="overlay"></span>
+                       <div class="box-desc">
+                           <h3 class="name">portfolio name</h3>
+                           <a href="./dist/up/portfolio-1.png" class="image-zoom lsb-preview" data-lsb-group="gallery1"><i class="fas fa-search-plus"></i></a>
+                           <a href="single-portfolio.html" class="read-more"><i class="far fa-file-alt"></i></a>
+                       </div>
+                    </div>
+                </div>
+                <!--End item portfolio-->
+                <!--item portfolio-->
+                <div class="col-md-6 col-lg-3 padding-0">
+                    <div class="item-portfolio">
+                       <img data-src="./dist/up/portfolio-1.png" class=" lozad img-fluid" alt="">
+                       <span class="overlay"></span>
+                       <div class="box-desc">
+                           <h3 class="name">portfolio name</h3>
+                           <a href="./dist/up/portfolio-1.png" class="image-zoom lsb-preview" data-lsb-group="gallery1"><i class="fas fa-search-plus"></i></a>
+                           <a href="single-portfolio.html" class="read-more"><i class="far fa-file-alt"></i></a>
+                       </div>
+                    </div>
+                </div>
+                <!--End item portfolio-->
+                <!--item portfolio-->
+                <div class="col-md-6 col-lg-3 padding-0">
+                    <div class="item-portfolio">
+                       <img data-src="./dist/up/portfolio-1.png" class=" lozad img-fluid" alt="">
+                       <span class="overlay"></span>
+                       <div class="box-desc">
+                           <h3 class="name">portfolio name</h3>
+                           <a href="./dist/up/portfolio-1.png" class="image-zoom lsb-preview" data-lsb-group="gallery1"><i class="fas fa-search-plus"></i></a>
+                           <a href="single-portfolio.html" class="read-more"><i class="far fa-file-alt"></i></a>
+                       </div>
+                    </div>
+                </div>
+                <!--End item portfolio-->
+                <!--item portfolio-->
+                <div class="col-md-6 col-lg-3 padding-0">
+                    <div class="item-portfolio">
+                       <img data-src="./dist/up/portfolio-1.png" class=" lozad img-fluid" alt="">
+                       <span class="overlay"></span>
+                       <div class="box-desc">
+                           <h3 class="name">portfolio name</h3>
+                           <a href="./dist/up/portfolio-1.png" class="image-zoom lsb-preview" data-lsb-group="gallery1"><i class="fas fa-search-plus"></i></a>
+                           <a href="single-portfolio.html" class="read-more"><i class="far fa-file-alt"></i></a>
+                       </div>
+                    </div>
+                </div>
+                <!--End item portfolio-->
+                <!--item portfolio-->
+                <div class="col-md-6 col-lg-3 padding-0">
+                    <div class="item-portfolio">
+                       <img data-src="./dist/up/portfolio-1.png" class=" lozad img-fluid" alt="">
+                       <span class="overlay"></span>
+                       <div class="box-desc">
+                           <h3 class="name">portfolio name</h3>
+                           <a href="./dist/up/portfolio-1.png" class="image-zoom lsb-preview" data-lsb-group="gallery1"><i class="fas fa-search-plus"></i></a>
+                           <a href="single-portfolio.html" class="read-more"><i class="far fa-file-alt"></i></a>
+                       </div>
+                    </div>
+                </div>
+                <!--End item portfolio-->
+
+                <!--link load more -->
+                <div class="col-12 padding-t-25 padding-b-25 text-center">
+                    <a href="portfolios.html" class="btn-radius-red">load more</a>
+                </div>
+                <!--End link load more -->
+            </div>
+        </div>
+    </section>
+    <!--End portfolios-->
+
+    <!--Testimonials-->
+    <section class="section testimonials">
+        <div class="container padding-b-15">
+            <div class="row justify-content-center">
+                <div class="col-12">
+                    <h2 class="section-title">Testimonials</h2>
+                </div>
+            </div>
+        </div>
+        <div class="section-Testimonials-slider lozad" data-toggle-class="active">
+            <div class="container padding-t-45">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="owl-carousel owl-theme" id="Testimonials-slider">
+                            <!--item-->
+                            <div class="item">
+                                <div class="item-Testimonials">
+                                    <div class="img-user-testimonials">
+                                        <img data-src="./dist/up/img-user-testimonials-1.png" alt="" class="owl-lazy">
+                                    </div>
+                                    <h5 class="name">user name</h5>
+                                    <div class="desc">
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus quos omnis voluptas ea ipsam! Voluptas.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus quos omnis voluptas ea ipsam! Voluptas.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--End item-->
+                            <!--item-->
+                            <div class="item">
+                                <div class="item-Testimonials">
+                                    <div class="img-user-testimonials">
+                                        <img data-src="./dist/up/img-user-testimonials-1.png" alt="" class="owl-lazy">
+                                    </div>
+                                    <h5 class="name">user name</h5>
+                                    <div class="desc">
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus quos omnis voluptas ea ipsam! Voluptas.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus quos omnis voluptas ea ipsam! Voluptas.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--End item-->
+                            <!--item-->
+                            <div class="item">
+                                <div class="item-Testimonials">
+                                    <div class="img-user-testimonials">
+                                        <img data-src="./dist/up/img-user-testimonials-1.png" alt="" class="owl-lazy">
+                                    </div>
+                                    <h5 class="name">user name</h5>
+                                    <div class="desc">
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus quos omnis voluptas ea ipsam! Voluptas.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus quos omnis voluptas ea ipsam! Voluptas.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--End item-->
+                            <!--item-->
+                            <div class="item">
+                                <div class="item-Testimonials">
+                                    <div class="img-user-testimonials">
+                                        <img data-src="./dist/up/img-user-testimonials-1.png" alt="" class="owl-lazy">
+                                    </div>
+                                    <h5 class="name">user name</h5>
+                                    <div class="desc">
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus quos omnis voluptas ea ipsam! Voluptas.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus quos omnis voluptas ea ipsam! Voluptas.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--End item-->
+                        </div>
+                    </div>
+                    <div class="col-12 control">
+                        <!--slider controll-->
+                        <button type="button" class="Testimonials-slider-control prev"><i class="fas fa-chevron-left"></i></button>
+                        <button type="button" class="Testimonials-slider-control next"><i class="fas fa-chevron-left"></i></button>
+                        <!--End slider controll-->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--End Testimonials-->
+
+
+    <!--Clients-->
+    <section class="section clients clearfix">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-12">
+                    <h2 class="section-title">Clients</h2>
+                </div>
+                <div class="col-12 control">
+                    <!--slider controll-->
+                    <button type="button" class="client-slider-control prev"><i class="fas fa-chevron-left"></i></button>
+                    <button type="button" class="client-slider-control next"><i class="fas fa-chevron-left"></i></button>
+                    <!--End slider controll-->
+                </div>
+                <div class="col-12">
+                    <div class="owl-carousel owl-theme" id="client-slider">
+                        <!--item-->
+                        <div class="item item-client-slider">
+                            <a href="#" target="_blank"><img data-src="./dist/up/client-logo-1.png" alt="" class="owl-lazy"></a>
+                        </div>
+                        <!--End item-->
+                        <!--item-->
+                        <div class="item item-client-slider">
+                            <a href="#" target="_blank"><img data-src="./dist/up/client-logo-1.png" alt="" class="owl-lazy"></a>
+                        </div>
+                        <!--End item-->
+                        <!--item-->
+                        <div class="item item-client-slider">
+                            <a href="#" target="_blank"><img data-src="./dist/up/client-logo-1.png" alt="" class="owl-lazy"></a>
+                        </div>
+                        <!--End item-->
+                        <!--item-->
+                        <div class="item item-client-slider">
+                            <a href="#" target="_blank"><img data-src="./dist/up/client-logo-1.png" alt="" class="owl-lazy"></a>
+                        </div>
+                        <!--End item-->
+                        <!--item-->
+                        <div class="item item-client-slider">
+                            <a href="#" target="_blank"><img data-src="./dist/up/client-logo-1.png" alt="" class="owl-lazy"></a>
+                        </div>
+                        <!--End item-->
+                        <!--item-->
+                        <div class="item item-client-slider">
+                            <a href="#" target="_blank"><img data-src="./dist/up/client-logo-1.png" alt="" class="owl-lazy"></a>
+                        </div>
+                        <!--End item-->
+                        <!--item-->
+                        <div class="item item-client-slider">
+                            <a href="#" target="_blank"><img data-src="./dist/up/client-logo-1.png" alt="" class="owl-lazy"></a>
+                        </div>
+                        <!--End item-->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--End Clients-->
+
+    <!--Footer-->
+    <footer class="pages-footer">
+        <ul class="list-social-media">
+            <li><a href="#" class="icon-facebook"><i class="fab fa-facebook-f"></i></a></li>
+            <li><a href="#" class="icon-twitter"><i class="fab fa-twitter"></i></a></li>
+            <li><a href="#" class="icon-google"><i class="fab fa-google-plus-g"></i></a></li>
+            <li><a href="#" class="icon-pinterest"><i class="fab fa-pinterest-p"></i></a></li>
+        </ul>
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-sm-6">
+                    <div class="footer-logo">
+                        <img data-src="./dist/images/logo.png" alt="" class="lozad">
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="copyright">
+                        <p class="mb-0">2019 <span><i class="far fa-copyright"></i></span> Copyright UI-DEV</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--End Footer-->
+
+    <script src="./dist/js/app.js"></script>
+    <script>
+        $(function () {
+            //main slider home page
+            const mainSlider = $('#main-slider');
+            mainSlider.owlCarousel({
+                loop: true,
+                lazyLoad: true,
+                animateOut: 'fadeOut',
+                animateIn: 'fadeIn',
+                autoplay:true,
+                autoplayTimeout:5000,
+                autoplayHoverPause:true,
+                nav:false,
+                margin: 0,
+                items: 1,
+                responsiveClass: true
+            });
+            $('.main-slider-control.prev').click(function() {
+                mainSlider.trigger('prev.owl.carousel', [300]);
+            })
+
+            $('.main-slider-control.next').click(function() {
+                mainSlider.trigger('next.owl.carousel', [300]);
+            });
+
+            //Testimonials slider home page
+            const TestimonialsSlider = $('#Testimonials-slider');
+            TestimonialsSlider.owlCarousel({
+                loop: false,
+                lazyLoad: true,
+                autoplay:true,
+                autoplayTimeout:5000,
+                autoplayHoverPause:true,
+                nav:false,
+                margin: 15,
+                responsiveClass: true,
+                responsive:{
+                    0:{
+                        items:1,
+                    },
+                    600:{
+                        items:2,
+                    },
+                    1000:{
+                        items:3,
+                    }
+                }
+            });
+            $('.Testimonials-slider-control.prev').click(function() {
+                TestimonialsSlider.trigger('prev.owl.carousel', [300]);
+            })
+
+            $('.Testimonials-slider-control.next').click(function() {
+                TestimonialsSlider.trigger('next.owl.carousel', [300]);
+            });
+
+            //client slider home page
+            const clientSlider = $('#client-slider');
+            clientSlider.owlCarousel({
+                loop: false,
+                lazyLoad: true,
+                autoplay:true,
+                autoplayTimeout:5000,
+                autoplayHoverPause:true,
+                nav:false,
+                margin: 15,
+                responsiveClass: true,
+                responsive:{
+                    0:{
+                        items:1,
+                    },
+                    600:{
+                        items:3,
+                    },
+                    1000:{
+                        items:4,
+                    }
+                }
+            });
+            $('.client-slider-control.prev').click(function() {
+                clientSlider.trigger('prev.owl.carousel', [300]);
+            })
+
+            $('.client-slider-control.next').click(function() {
+                clientSlider.trigger('next.owl.carousel', [300]);
+            });
+             
+        });
+    </script>
+</body>
+
+</html>

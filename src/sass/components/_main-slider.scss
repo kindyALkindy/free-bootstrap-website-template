@@ -1,0 +1,74 @@
+.main-slider{
+    position: relative;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+    .main-slider-control{
+        position: absolute;
+        top: 50%;
+        border: 0;
+        background: #ffffff;
+        color: $color-2;
+        z-index: 8;
+        width: 50px;
+        height: 50px;
+        margin-top: -25px;
+        @include border-radius(50%);
+        @include transitionAll(0.25s);
+        opacity: 0.7;
+        &:hover{
+            opacity: 1;
+        }
+        @if $direction == ltr{
+            &.prev{
+                left: -100%;
+            }
+            &.next{
+                right: -100%;
+                @include rotate(-180);
+            }
+        }@else if $direction == rtl{
+            &.prev{
+                right: -100%;
+                @include rotate(-180);
+            }
+            &.next{
+                left: -100%;
+                
+            }
+        } 
+    }
+    &:hover{
+        .main-slider-control{
+            @if $direction == ltr{
+                &.prev{
+                    left: 0;
+                    left: 15px;
+                }
+                &.next{
+                    right: 0;
+                    right: 15px;
+                }
+            }@else if $direction == rtl{
+                &.prev{
+                    right: 0;
+                    right: 15px;
+                }
+                &.next{
+                    left: 0;
+                    left: 15px;
+                }
+            } 
+        }
+    }
+    .item-main-slider{
+        img{
+            width: 100%;
+            height: auto;
+            object-fit: cover;
+            @media(min-width: 992px){
+                height: 700px;
+            }
+        }
+    }
+}

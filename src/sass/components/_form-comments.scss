@@ -1,0 +1,18 @@
+.form-comments{
+    h2{
+        font-size: 20px;
+        font-weight: 700;
+        margin-bottom: 20px;
+        position: relative;
+        padding-bottom: 10px;
+        &::before{
+            content: '';
+            position: absolute;
+            bottom: 0;
+            #{$left}: 0;
+            width: 100px;
+            height: 2px;
+            background: $color-2;
+        }
+    }
+}

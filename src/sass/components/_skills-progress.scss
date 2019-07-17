@@ -1,0 +1,22 @@
+.skills-progress{
+    position: relative;
+    p{
+        font-size: 15px;
+        color: #000000;
+        text-transform: uppercase;
+        margin-bottom: 8px;
+        span{
+            float: #{$right};
+            font-weight: 400;
+            color: #a6a6a6;
+            font-size: 14px;
+        }
+    }
+    .progress{
+        height: 8px;
+        margin-bottom: 15px;
+        span{
+            background: $color-2;
+        }
+    }
+}

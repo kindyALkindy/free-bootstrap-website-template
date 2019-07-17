@@ -1,0 +1,20 @@
+.form-group{
+    position: relative;
+    padding: 0;
+    &.form-group-icon{
+        .icon{
+            position: absolute;
+            top: 5px;
+            #{$left}: 0;
+            font-size: 16px;
+            color: #a7a7a7;
+            pointer-events: none;
+        }
+        .form-control{
+            padding-#{$left}: 25px;
+        }
+        textarea.form-control{
+            padding-#{$left}: 25px;
+        }
+    }
+}

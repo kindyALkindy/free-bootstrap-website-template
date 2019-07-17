@@ -1,0 +1,24 @@
+.widget{
+    position: relative;
+    padding: 0 0 15px;
+    background: transparent;
+    .title{
+        display: block;
+        padding: 0 0 10px;
+        margin: 0 0 20px;
+        position: relative;
+        color: #606060;
+        font-weight: 700;
+        font-size: 22px;
+        text-transform: uppercase;
+        &::before{
+            content: "";
+            position: absolute;
+            bottom: 0;
+            #{$left}: 0;
+            width: 90px;
+            height: 2px;
+            background: $color-2;
+        }
+    }
+}

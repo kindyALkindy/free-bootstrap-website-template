@@ -1,0 +1,111 @@
+.form-search{
+    position: relative;
+    padding: 0;
+    margin: 0;
+    height: 0;
+    overflow: hidden;
+    .box-search{
+        position: absolute;
+        top: 0;
+        #{$left}: 0;
+        width: 100%;
+        height: 100%;
+    }
+    @include transitionAll(.25s);
+    .form-control{
+        width: 100%;
+        height: 100%;
+        font-size: 20px;
+        background: $color-2;
+        color: #ffffff;
+        border: 0;
+        @include border-radius(0);
+        &::-webkit-input-placeholder {
+            color: #ffffff;
+            opacity: 1;
+          }
+          
+          &::-moz-placeholder {
+            color: #ffffff;
+            opacity: 1;
+          }
+          
+          &:-ms-input-placeholder {
+            color: #ffffff;
+            opacity: 1;
+          }
+          
+          &::placeholder {
+            color: #ffffff;
+            opacity: 1;
+          }
+    }
+    .submit-search{
+        position: absolute;
+        top: 50%;
+        #{$right}: 25px;
+        width:26px;
+        height: 26px;
+        margin-top: -13px;
+        border: 0;
+        background: transparent;
+        padding: 0;
+        color: #ffffff;
+        &:hover{
+            color: #313131;
+        }
+    }
+
+}
+.toggle-form{
+    border: 0;
+    background: transparent;
+    padding: 10px;
+    color: #a2a2a2;
+    font-size: 15px;
+    &:hover{
+        color: $color-2 !important;
+    }
+    span.icon-close{
+        display: none;
+    }
+    span.icon-search{
+        display: block;
+    }
+}
+.open-form-search{
+    .toggle-form{
+        span.icon-close{
+            display: block;
+        }
+        span.icon-search{
+            display: none;
+        }
+    }
+    .form-search{
+        height: 60px;
+        .form-control{
+            width: 100%;
+            @include border-radius(0);
+        }
+        .toggle-form{
+            border: 0;
+            background: transparent;
+            padding: 10px;
+            span.icon-search{
+                display: block;
+            }
+            span.icon-close{
+                display: none;
+            }
+            &.open{
+                span.icon-search{
+                    display: none;
+                }
+                span.icon-close{
+                    display: block;
+                }
+            }
+        }
+    }
+}

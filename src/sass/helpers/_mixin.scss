@@ -1,0 +1,22 @@
+@mixin border-radius($number) {
+    -moz-border-radius: $number !important;
+    -webkit-border-radius: $number !important;
+    -o-border-radius: $number !important;
+    border-radius: $number !important;
+}
+
+@mixin transitionAll($time) {
+    -webkit-transition: all $time ease-in-out; 
+    -moz-transition: all $time ease-in-out; 
+    -o-transition: all $time ease-in-out; 
+    -ms-transition: all $time ease-in-out; 
+    transition: all $time ease-in-out;
+}
+
+@mixin rotate($v) {
+    -webkit-transform: rotate(#{$v}deg);
+    -moz-transform: rotate(#{$v}deg);
+    -ms-transform: rotate(#{$v}deg);
+    -o-transform: rotate(#{$v}deg);
+    transform: rotate(#{$v}deg);
+}

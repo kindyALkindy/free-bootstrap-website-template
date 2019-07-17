@@ -1,0 +1,20 @@
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+@import '~owl.carousel/dist/assets/owl.carousel.min.css';
+@import '~normalize.css/normalize.css';
+@import '~animate.css/animate.min.css';
+@import '~mediaelement/build/mediaelementplayer.css';
+//lib
+@import './lib/lsb.css';
+
+@font-face {
+    font-family: 'TheSansArabic';
+    src: url('./fonts/TheSansArabic-Light.woff2') format('woff2'),
+        url('./fonts/TheSansArabic-Light.woff') format('woff'),
+        url('./fonts/TheSansArabic-Light.svg#TheSansArabic-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: fallback;
+}
+
+@import './includes';

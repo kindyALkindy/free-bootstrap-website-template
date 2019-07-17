@@ -1,0 +1,13 @@
+.box-about-desc{
+    .box-title{
+        .title{
+            &.not-block{
+                display: inline-block;
+            }
+        }
+        .control{
+            float: #{$right};
+            padding: 0;
+        }
+    }
+}

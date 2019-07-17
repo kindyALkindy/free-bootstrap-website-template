@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>UI-DEV | Home</title>
+    <link rel="stylesheet" href="./dist/css/app.css">
+</head>
+
+<body>
+
+    <!--Header-->
+    <header class="pages-header">
+        <div class="form-search">
+            <form class="form-inline" action="search.html">
+                <div class="box-search">
+                    <input class="form-control" type="search" placeholder="Search..." id="form-header-search"
+                        autocomplete="off">
+                    <button class="submit-search" type="submit"><i class="fas fa-search"></i></button>
+                </div>
+            </form>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <nav class="navbar navbar-expand-lg">
+                        <a class="navbar-brand" href="index.html">
+                            <!--logo-->
+                            <img data-src="./dist/images/logo.png" alt="" class="lozad img-fluid logo-header">
+                        </a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse"
+                            data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="app-navbar-toggler-icon">
+                                <span class="line-1"></span>
+                                <span class="line-2"></span>
+                                <span class="line-3"></span>
+                            </span>
+                        </button>
+
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav app-mr-auto">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="index.html">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="about.html">About</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="portfolio.html">Portfolio</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="blog.html">Blog</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="contact.html">Contact</a>
+                                </li>
+                            </ul>
+                            <button type="button" class="toggle-form">
+                                <span class="icon-search"><i class="fas fa-search"></i></span>
+                                <span class="icon-close"><i class="fas fa-times"></i></span>
+                            </button>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!--End Header-->
+
+
+    <!--Services-->
+    <section class="section services">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-12">
+                    <h2 class="section-title">about us</h2>
+                </div>
+                <!--item desc -->
+                <div class="col-md-6 mb-3">
+                    <div class="box-about-desc">
+                        <div class="box-title">
+                            <h3 class="title">HISTORY</h3>
+                            <span>short biography</span>
+                        </div>
+                        <div class="desc">
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+                        </div>
+                    </div>
+                </div>
+                <!--End item desc-->
+                <!--item desc -->
+                <div class="col-md-6 mb-3">
+                    <div class="box-about-desc">
+                        <div class="box-title">
+                            <h3 class="title">OUR SKILLS</h3>
+                            <span>what we do and how we do it</span>
+                        </div>
+                        <div class="desc">
+                            <div class="skills-progress">
+                                <p>WEBSITE DESIGN<span>89%</span></p>
+                                <div class="progress">
+                                    <span style="width: 89%"></span>
+                                </div>
+                            </div>
+                            <div class="skills-progress">
+                                <p>WEBSITE DEVELOPMENT<span>97%</span></p>
+                                <div class="progress">
+                                    <span style="width: 97%"></span>
+                                </div>
+                            </div>
+                            <div class="skills-progress">
+                                <p>PLUGINS<span>85%</span></p>
+                                <div class="progress">
+                                    <span style="width: 85%"></span>
+                                </div>
+                            </div>
+                            <div class="skills-progress">
+                                <p>FRONT END<span>95%</span></p>
+                                <div class="progress">
+                                    <span style="width: 95%"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--End item desc-->
+
+                <!--slider the team -->
+                <div class="col-md-12 mb-3 mt-5">
+                    <div class="box-about-desc">
+                        <div class="box-title clearfix">
+                            <div class="inline-block">
+                                <h3 class="title">THE TEAM</h3>
+                                <span>meet our friendly team</span>
+                            </div>
+                            <div class="control app-ml-auto">
+                                <!--slider controll-->
+                                <button type="button" class="team-slider-control prev"><i class="fas fa-chevron-left"></i></button>
+                                <button type="button" class="team-slider-control next"><i class="fas fa-chevron-left"></i></button>
+                                <!--End slider controll-->
+                            </div>
+                        </div>
+                        <div class="owl-carousel owl-theme" id="team-slider">
+                            <!--item-->
+                            <div class="item">
+                                <div class="item-team">
+                                    <img data-src="./dist/up/team/face-facial-expression-facial-hair-2373220.jpg" alt="" class="img-fluid lozad owl-lazy">
+                                    <div class="team-content">
+                                        <h2>John SMith</h2>
+                                        <span>web developer</span>
+                                        <ul class="team-social">
+                                            <li><a href="#" target="_blank" class="google-plus"><i class="fab fa-google-plus-g"></i></a></li>
+                                            <li><a href="#" target="_blank" class="twitter"><i class="fab fa-twitter"></i></a></li>
+                                            <li><a href="#" target="_blank" class="pinterest"><i class="fab fa-pinterest-p"></i></a></li>
+                                            <li><a href="#" target="_blank" class="facebook"><i class="fab fa-facebook-f"></i></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--End item-->
+                            <!--item-->
+                            <div class="item">
+                                <div class="item-team">
+                                    <img data-src="./dist/up/team/daylight-facial-expression-facial-hair-1211604.jpg" alt="" class="img-fluid lozad owl-lazy">
+                                    <div class="team-content">
+                                        <h2>John SMith</h2>
+                                        <span>web developer</span>
+                                        <ul class="team-social">
+                                            <li><a href="#" target="_blank" class="google-plus"><i class="fab fa-google-plus-g"></i></a></li>
+                                            <li><a href="#" target="_blank" class="twitter"><i class="fab fa-twitter"></i></a></li>
+                                            <li><a href="#" target="_blank" class="pinterest"><i class="fab fa-pinterest-p"></i></a></li>
+                                            <li><a href="#" target="_blank" class="facebook"><i class="fab fa-facebook-f"></i></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--End item-->
+                            <!--item-->
+                            <div class="item">
+                                <div class="item-team">
+                                    <img data-src="./dist/up/team/dark-facial-expression-fine-looking-2121675.jpg" alt="" class="img-fluid lozad owl-lazy">
+                                    <div class="team-content">
+                                        <h2>John SMith</h2>
+                                        <span>web developer</span>
+                                        <ul class="team-social">
+                                            <li><a href="#" target="_blank" class="google-plus"><i class="fab fa-google-plus-g"></i></a></li>
+                                            <li><a href="#" target="_blank" class="twitter"><i class="fab fa-twitter"></i></a></li>
+                                            <li><a href="#" target="_blank" class="pinterest"><i class="fab fa-pinterest-p"></i></a></li>
+                                            <li><a href="#" target="_blank" class="facebook"><i class="fab fa-facebook-f"></i></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--End item-->
+                            <!--item-->
+                            <div class="item">
+                                <div class="item-team">
+                                    <img data-src="./dist/up/team/blond-hair-casual-close-up-1921989.jpg" alt="" class="img-fluid lozad owl-lazy">
+                                    <div class="team-content">
+                                        <h2>John SMith</h2>
+                                        <span>web developer</span>
+                                        <ul class="team-social">
+                                            <li><a href="#" target="_blank" class="google-plus"><i class="fab fa-google-plus-g"></i></a></li>
+                                            <li><a href="#" target="_blank" class="twitter"><i class="fab fa-twitter"></i></a></li>
+                                            <li><a href="#" target="_blank" class="pinterest"><i class="fab fa-pinterest-p"></i></a></li>
+                                            <li><a href="#" target="_blank" class="facebook"><i class="fab fa-facebook-f"></i></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--End item-->
+                            <!--item-->
+                            <div class="item">
+                                <div class="item-team">
+                                    <img data-src="./dist/up/team/face-facial-expression-facial-hair-2373220.jpg" alt="" class="img-fluid lozad owl-lazy">
+                                    <div class="team-content">
+                                        <h2>John SMith</h2>
+                                        <span>web developer</span>
+                                        <ul class="team-social">
+                                            <li><a href="#" target="_blank" class="google-plus"><i class="fab fa-google-plus-g"></i></a></li>
+                                            <li><a href="#" target="_blank" class="twitter"><i class="fab fa-twitter"></i></a></li>
+                                            <li><a href="#" target="_blank" class="pinterest"><i class="fab fa-pinterest-p"></i></a></li>
+                                            <li><a href="#" target="_blank" class="facebook"><i class="fab fa-facebook-f"></i></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--End item-->
+                            <!--item-->
+                            <div class="item">
+                                <div class="item-team">
+                                    <img data-src="./dist/up/team/daylight-facial-expression-facial-hair-1211604.jpg" alt="" class="img-fluid lozad owl-lazy">
+                                    <div class="team-content">
+                                        <h2>John SMith</h2>
+                                        <span>web developer</span>
+                                        <ul class="team-social">
+                                            <li><a href="#" target="_blank" class="google-plus"><i class="fab fa-google-plus-g"></i></a></li>
+                                            <li><a href="#" target="_blank" class="twitter"><i class="fab fa-twitter"></i></a></li>
+                                            <li><a href="#" target="_blank" class="pinterest"><i class="fab fa-pinterest-p"></i></a></li>
+                                            <li><a href="#" target="_blank" class="facebook"><i class="fab fa-facebook-f"></i></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--End item-->
+                            <!--item-->
+                            <div class="item">
+                                <div class="item-team">
+                                    <img data-src="./dist/up/team/dark-facial-expression-fine-looking-2121675.jpg" alt="" class="img-fluid lozad owl-lazy">
+                                    <div class="team-content">
+                                        <h2>John SMith</h2>
+                                        <span>web developer</span>
+                                        <ul class="team-social">
+                                            <li><a href="#" target="_blank" class="google-plus"><i class="fab fa-google-plus-g"></i></a></li>
+                                            <li><a href="#" target="_blank" class="twitter"><i class="fab fa-twitter"></i></a></li>
+                                            <li><a href="#" target="_blank" class="pinterest"><i class="fab fa-pinterest-p"></i></a></li>
+                                            <li><a href="#" target="_blank" class="facebook"><i class="fab fa-facebook-f"></i></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--End item-->
+                            <!--item-->
+                            <div class="item">
+                                <div class="item-team">
+                                    <img data-src="./dist/up/team/blond-hair-casual-close-up-1921989.jpg" alt="" class="img-fluid lozad owl-lazy">
+                                    <div class="team-content">
+                                        <h2>John SMith</h2>
+                                        <span>web developer</span>
+                                        <ul class="team-social">
+                                            <li><a href="#" target="_blank" class="google-plus"><i class="fab fa-google-plus-g"></i></a></li>
+                                            <li><a href="#" target="_blank" class="twitter"><i class="fab fa-twitter"></i></a></li>
+                                            <li><a href="#" target="_blank" class="pinterest"><i class="fab fa-pinterest-p"></i></a></li>
+                                            <li><a href="#" target="_blank" class="facebook"><i class="fab fa-facebook-f"></i></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--End item-->
+                        </div>
+                    </div>
+                </div>
+                <!--End slider the team-->
+            </div>
+        </div>
+    </section>
+    <!--End Services-->
+
+
+
+    <!--Footer-->
+    <footer class="pages-footer">
+        <ul class="list-social-media">
+            <li><a href="#" class="icon-facebook"><i class="fab fa-facebook-f"></i></a></li>
+            <li><a href="#" class="icon-twitter"><i class="fab fa-twitter"></i></a></li>
+            <li><a href="#" class="icon-google"><i class="fab fa-google-plus-g"></i></a></li>
+            <li><a href="#" class="icon-pinterest"><i class="fab fa-pinterest-p"></i></a></li>
+        </ul>
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-sm-6">
+                    <div class="footer-logo">
+                        <img data-src="./dist/images/logo.png" alt="" class="lozad">
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="copyright">
+                        <p class="mb-0">2019 <span><i class="far fa-copyright"></i></span> Copyright UI-DEV</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--End Footer-->
+
+    <script src="./dist/js/app.js"></script>
+    <script>
+        $(function () {
+
+            //team slider
+            const teamSlider = $('#team-slider');
+            teamSlider.owlCarousel({
+                loop: false,
+                lazyLoad: true,
+                autoplay:true,
+                autoplayTimeout:5000,
+                autoplayHoverPause:true,
+                nav:false,
+                margin: 15,
+                responsiveClass: true,
+                responsive:{
+                    0:{
+                        items:1,
+                    },
+                    500:{
+                        items:2,
+                    },
+                    600:{
+                        items:2,
+                    },
+                    1000:{
+                        items:4,
+                    }
+                }
+            });
+            $('.team-slider-control.prev').click(function() {
+                teamSlider.trigger('prev.owl.carousel', [300]);
+            })
+
+            $('.team-slider-control.next').click(function() {
+                teamSlider.trigger('next.owl.carousel', [300]);
+            });
+             
+        });
+    </script>
+</body>
+
+</html>

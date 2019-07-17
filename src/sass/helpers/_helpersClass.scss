@@ -1,0 +1,58 @@
+.app-mr-auto{
+    @if $direction == ltr{
+        margin-right: auto !important;
+    }@else if $direction == rtl{
+        margin-left: auto !important;
+    }
+}
+
+.app-ml-auto{
+    @if $direction == ltr{
+        margin-left: auto !important;
+    }@else if $direction == rtl{
+        margin-right: auto !important;
+    }
+}
+
+
+//padding 
+@for $i from 0 through 100 {
+    .padding-#{$i} {
+      padding: #{$i}px !important;
+    }
+}
+@for $i from 0 through 100 {
+    .padding-t-#{$i} {
+      padding-top: #{$i}px !important;
+    }
+}
+@for $i from 0 through 100 {
+    .padding-b-#{$i} {
+      padding-bottom: #{$i}px !important;
+    }
+}
+
+//margin
+@for $i from 0 through 100 {
+    .margin-#{$i} {
+        margin: #{$i}px !important;
+    }
+}
+@for $i from 0 through 100 {
+    .margin-t-#{$i} {
+        margin-top: #{$i}px !important;
+    }
+}
+@for $i from 0 through 100 {
+    .margin-r-#{$i} {
+        margin-#{$right}: #{$i}px !important;
+    }
+}
+@for $i from 0 through 100 {
+    .margin-l-#{$i} {
+        margin-#{$left}: #{$i}px !important;
+    }
+}
+.inline-block{
+    display: inline-block;
+}
