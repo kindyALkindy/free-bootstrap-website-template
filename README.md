@@ -2,6 +2,9 @@
 
 * [demo](https://kindyalkindy.github.io/free-bootstrap-website-template/index.html)
 
+### Supports
+RTL && LTR
+
 Requirements
 -----
 
