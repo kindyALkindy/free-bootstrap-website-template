@@ -32,3 +32,7 @@ Requirements
 * [owl.carousel](https://owlcarousel2.github.io/OwlCarousel2/)
 * [cross-env](https://github.com/kentcdodds/cross-env#readme)
 * [popper.js](https://www.npmjs.com/package/popper.js)
+
+## License
+
+Released under the MIT license.
