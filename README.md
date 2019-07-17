@@ -1,4 +1,4 @@
-## About UI_DEV
+## bootstrap-website-template
 
 * [demo](https://kindyalkindy.github.io/free-bootstrap-website-template/index.html)
 
